@@ -1,0 +1,14 @@
+.covid-heading{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.icon{
+    font-size:20px;
+    background-color:#000000;
+    padding:2px;
+    border-radius:10px;
+    color:orange;
+    margin-top:-5px;
+}
