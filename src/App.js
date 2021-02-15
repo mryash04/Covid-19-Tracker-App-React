@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import { BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 import CovidData from "./components/CovidData";
 import Map from "./components/Map";
+import Chart from "./components/Chart";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
           </Route>
           <Route path="/">
             <Header />
+            <Chart />
             <CovidData />
           </Route>
         </Switch>

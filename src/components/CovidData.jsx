@@ -1,6 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import "./CovidData.css";
+import DonutChart from 'react-donut-chart';
+import { green } from '@material-ui/core/colors';
 
 const CovidData = () => {
 
@@ -18,7 +20,8 @@ const CovidData = () => {
           <h2 className="text-uppercase ml-2"> India Covid-19 Tracker</h2>
           </div>
           <p className="">Let's all pray to make our earth Covid-19 free soon, Stay Safe and do TheLocate</p>
-            <table className="table table-striped table-bordered table-hover container">
+          <div className="table-responsive">
+          <table className="table table-striped table-bordered table-hover container">
   <thead className="thead-light">
     <tr>
       <th scope="col" className="text-warning">#</th>
@@ -44,6 +47,7 @@ const CovidData = () => {
     })}
   </tbody>
 </table>
+          </div>
         </div>
     )
 }
